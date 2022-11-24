@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 4.602 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest
+BONUSE03_getAllCarParkFloorsEmbedded  Time elapsed: 0.293 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest.BONUSE03_getAllCarParkFloorsEmbedded(CarParkFloorEmbeddedIdTest.java:277)
+
+BONUSE02_deleteCarParkFloorEmbeddedTest  Time elapsed: 0.178 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest.BONUSE02_deleteCarParkFloorEmbeddedTest(CarParkFloorEmbeddedIdTest.java:211)
+
+BONUSE01_createAndGetCarParkFloorTestEmbedded  Time elapsed: 0.181 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.CarParkFloorEmbeddedIdTest.BONUSE01_createAndGetCarParkFloorTestEmbedded(CarParkFloorEmbeddedIdTest.java:136)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 1.001 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest
+BONUSU01_shouldUpdateCarBrandAndModel  Time elapsed: 0.182 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.BONUSU01_shouldUpdateCarBrandAndModel(EntityUpdateTest.java:49)
+
+BONUSU04_updateParkingSpotWithoutType  Time elapsed: 0.197 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1.1> but was: <11-1>
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.BONUSU04_updateParkingSpotWithoutType(EntityUpdateTest.java:201)
+
+BONUSU02_shouldCreateAndUpdateUserByChangingEmail  Time elapsed: 0.167 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.BONUSU02_shouldCreateAndUpdateUserByChangingEmail(EntityUpdateTest.java:65)
+
+BONUSU05_shouldCreateAndUpdateReservation  Time elapsed: 0.232 s  <<< ERROR!
+java.lang.NullPointerException
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.lambda$BONUSU05_shouldCreateAndUpdateReservation$0(EntityUpdateTest.java:236)
+	at sk.stuba.fei.uim.vsa.pr1c.bonus.EntityUpdateTest.BONUSU05_shouldCreateAndUpdateReservation(EntityUpdateTest.java:234)
+
+-------------------------------------------------------------------------------
+ 

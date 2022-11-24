@@ -1,0 +1,927 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for sk.stuba.fei.uim.vsa:b-vsa-ls22-project1-C:jar:1.0.0
+[WARNING] 'dependencies.dependency.version' for org.projectlombok:lombok:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 64, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------< sk.stuba.fei.uim.vsa:b-vsa-ls22-project1-C >-------------
+[INFO] Building b-vsa-ls22-project1-C 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ b-vsa-ls22-project1-C ---
+[INFO] Deleting C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\xsedlacek\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ b-vsa-ls22-project1-C ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ b-vsa-ls22-project1-C ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\xsedlacek\target\classes
+[WARNING] /C:/Users/mlado/Documents/Projects/School/VSA/LS 21-22/opravovanie/zadanie1/skupiny/skupinaC/xsedlacek/src/main/java/sk/stuba/fei/uim/vsa/pr1c/CarParkService.java: C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\xsedlacek\src\main\java\sk\stuba\fei\uim\vsa\pr1c\CarParkService.java uses unchecked or unsafe operations.
+[WARNING] /C:/Users/mlado/Documents/Projects/School/VSA/LS 21-22/opravovanie/zadanie1/skupiny/skupinaC/xsedlacek/src/main/java/sk/stuba/fei/uim/vsa/pr1c/CarParkService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ b-vsa-ls22-project1-C ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ b-vsa-ls22-project1-C ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ b-vsa-ls22-project1-C ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ b-vsa-ls22-project1-C ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\xsedlacek\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ b-vsa-ls22-project1-C ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest
+[EL Info]: 2022-05-21 01:55:00.721--ServerSession(443942537)--EclipseLink, version: Eclipse Persistence Services - 2.7.10.v20211216-fe64cd39c3
+[EL Fine]: sql: 2022-05-21 01:55:01.234--ServerSession(443942537)--Connection(632475595)--ALTER TABLE CAR DROP FOREIGN KEY FK_CAR_user
+[EL Fine]: sql: 2022-05-21 01:55:01.264--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.266--ServerSession(443942537)--Connection(632475595)--ALTER TABLE CAR DROP FOREIGN KEY FK_CAR_RESERVATION_ID
+[EL Fine]: sql: 2022-05-21 01:55:01.268--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.269--ServerSession(443942537)--Connection(632475595)--ALTER TABLE CAR_PARK_FLOOR DROP FOREIGN KEY FK_CAR_PARK_FLOOR_car_park_id
+[EL Fine]: sql: 2022-05-21 01:55:01.27--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.271--ServerSession(443942537)--Connection(632475595)--ALTER TABLE PARKING_SPOT DROP FOREIGN KEY FK_PARKING_SPOT_floor_id
+[EL Fine]: sql: 2022-05-21 01:55:01.273--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.274--ServerSession(443942537)--Connection(632475595)--ALTER TABLE PARKING_SPOT DROP FOREIGN KEY FK_PARKING_SPOT_CAR_ID
+[EL Fine]: sql: 2022-05-21 01:55:01.276--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.277--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR
+[EL Fine]: sql: 2022-05-21 01:55:01.281--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.282--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK
+[EL Fine]: sql: 2022-05-21 01:55:01.283--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.285--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK_FLOOR
+[EL Fine]: sql: 2022-05-21 01:55:01.286--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.288--ServerSession(443942537)--Connection(632475595)--DROP TABLE USER
+[EL Fine]: sql: 2022-05-21 01:55:01.29--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.291--ServerSession(443942537)--Connection(632475595)--DROP TABLE PARKING_SPOT
+[EL Fine]: sql: 2022-05-21 01:55:01.294--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.297--ServerSession(443942537)--Connection(632475595)--DROP TABLE RESERVATION
+[EL Fine]: sql: 2022-05-21 01:55:01.298--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.299--ServerSession(443942537)--Connection(632475595)--DROP TABLE HOLIDAYS
+[EL Fine]: sql: 2022-05-21 01:55:01.301--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.302--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR
+[EL Fine]: sql: 2022-05-21 01:55:01.303--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.304--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK
+[EL Fine]: sql: 2022-05-21 01:55:01.306--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.307--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK_FLOOR
+[EL Fine]: sql: 2022-05-21 01:55:01.308--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.31--ServerSession(443942537)--Connection(632475595)--DROP TABLE USER
+[EL Fine]: sql: 2022-05-21 01:55:01.311--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.312--ServerSession(443942537)--Connection(632475595)--DROP TABLE PARKING_SPOT
+[EL Fine]: sql: 2022-05-21 01:55:01.313--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.314--ServerSession(443942537)--Connection(632475595)--DROP TABLE RESERVATION
+[EL Fine]: sql: 2022-05-21 01:55:01.315--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.316--ServerSession(443942537)--Connection(632475595)--DROP TABLE HOLIDAYS
+[EL Fine]: sql: 2022-05-21 01:55:01.318--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.319--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR
+[EL Fine]: sql: 2022-05-21 01:55:01.32--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.321--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK
+[EL Fine]: sql: 2022-05-21 01:55:01.323--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.325--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK_FLOOR
+[EL Fine]: sql: 2022-05-21 01:55:01.328--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.329--ServerSession(443942537)--Connection(632475595)--DROP TABLE USER
+[EL Fine]: sql: 2022-05-21 01:55:01.331--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.332--ServerSession(443942537)--Connection(632475595)--DROP TABLE PARKING_SPOT
+[EL Fine]: sql: 2022-05-21 01:55:01.333--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.334--ServerSession(443942537)--Connection(632475595)--DROP TABLE RESERVATION
+[EL Fine]: sql: 2022-05-21 01:55:01.335--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.336--ServerSession(443942537)--Connection(632475595)--DROP TABLE HOLIDAYS
+[EL Fine]: sql: 2022-05-21 01:55:01.338--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.339--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR
+[EL Fine]: sql: 2022-05-21 01:55:01.34--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.341--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK
+[EL Fine]: sql: 2022-05-21 01:55:01.342--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.343--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK_FLOOR
+[EL Fine]: sql: 2022-05-21 01:55:01.344--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.345--ServerSession(443942537)--Connection(632475595)--DROP TABLE USER
+[EL Fine]: sql: 2022-05-21 01:55:01.346--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.347--ServerSession(443942537)--Connection(632475595)--DROP TABLE PARKING_SPOT
+[EL Fine]: sql: 2022-05-21 01:55:01.349--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.35--ServerSession(443942537)--Connection(632475595)--DROP TABLE RESERVATION
+[EL Fine]: sql: 2022-05-21 01:55:01.352--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.353--ServerSession(443942537)--Connection(632475595)--DROP TABLE HOLIDAYS
+[EL Fine]: sql: 2022-05-21 01:55:01.356--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.359--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR
+[EL Fine]: sql: 2022-05-21 01:55:01.362--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.364--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK
+[EL Fine]: sql: 2022-05-21 01:55:01.366--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.367--ServerSession(443942537)--Connection(632475595)--DROP TABLE CAR_PARK_FLOOR
+[EL Fine]: sql: 2022-05-21 01:55:01.368--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.369--ServerSession(443942537)--Connection(632475595)--DROP TABLE USER
+[EL Fine]: sql: 2022-05-21 01:55:01.371--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.372--ServerSession(443942537)--Connection(632475595)--DROP TABLE PARKING_SPOT
+[EL Fine]: sql: 2022-05-21 01:55:01.373--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.374--ServerSession(443942537)--Connection(632475595)--DROP TABLE RESERVATION
+[EL Fine]: sql: 2022-05-21 01:55:01.376--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.377--ServerSession(443942537)--Connection(632475595)--DROP TABLE HOLIDAYS
+[EL Fine]: sql: 2022-05-21 01:55:01.378--ServerSession(443942537)--SELECT 1
+[EL Fine]: sql: 2022-05-21 01:55:01.382--ServerSession(443942537)--Connection(632475595)--DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2022-05-21 01:55:01.385--ServerSession(443942537)--SELECT 1
+[EL Warning]: 2022-05-21 01:55:01.387--ServerSession(443942537)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.10.v20211216-fe64cd39c3): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'VSA_PR1.SEQUENCE' doesn't exist
+Error Code: 1146
+Call: DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+Query: DataModifyQuery(sql="DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'")
+[EL Fine]: sql: 2022-05-21 01:55:01.394--ServerSession(443942537)--Connection(632475595)--CREATE TABLE CAR (ID BIGINT NOT NULL, BRAND VARCHAR(255), COLOR VARCHAR(255), LICENSEPLATE VARCHAR(255) UNIQUE, MODEL VARCHAR(255), RESERVATION_ID BIGINT, user BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-21 01:55:01.43--ServerSession(443942537)--Connection(632475595)--CREATE TABLE CAR_PARK (ID BIGINT NOT NULL, ADDRESS VARCHAR(255), NAME VARCHAR(255) UNIQUE, PRICEPERHOUR INTEGER, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-21 01:55:01.46--ServerSession(443942537)--Connection(632475595)--CREATE TABLE CAR_PARK_FLOOR (ID BIGINT NOT NULL, FLOORIDENTIFIER VARCHAR(255), car_park_id BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-21 01:55:01.487--ServerSession(443942537)--Connection(632475595)--CREATE TABLE USER (ID BIGINT NOT NULL, EMAIL VARCHAR(255) UNIQUE, FIRSTNAME VARCHAR(255), LASTNAME VARCHAR(255), PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-21 01:55:01.52--ServerSession(443942537)--Connection(632475595)--CREATE TABLE PARKING_SPOT (ID BIGINT NOT NULL, PARKINGSPOTIDENTIFIER VARCHAR(255) NOT NULL, CAR_ID BIGINT, floor_id BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-21 01:55:01.547--ServerSession(443942537)--Connection(632475595)--CREATE TABLE RESERVATION (ID BIGINT NOT NULL, BEGINTIME DATETIME(3), ENDTIME DATETIME(3), PRICE INTEGER, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-21 01:55:01.579--ServerSession(443942537)--Connection(632475595)--CREATE TABLE HOLIDAYS (ID BIGINT NOT NULL, DATE VARCHAR(255) UNIQUE, NAME VARCHAR(255), PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-21 01:55:01.608--ServerSession(443942537)--Connection(632475595)--ALTER TABLE CAR ADD CONSTRAINT FK_CAR_user FOREIGN KEY (user) REFERENCES USER (ID)
+[EL Fine]: sql: 2022-05-21 01:55:01.68--ServerSession(443942537)--Connection(632475595)--ALTER TABLE CAR ADD CONSTRAINT FK_CAR_RESERVATION_ID FOREIGN KEY (RESERVATION_ID) REFERENCES RESERVATION (ID)
+[EL Fine]: sql: 2022-05-21 01:55:01.763--ServerSession(443942537)--Connection(632475595)--ALTER TABLE CAR_PARK_FLOOR ADD CONSTRAINT FK_CAR_PARK_FLOOR_car_park_id FOREIGN KEY (car_park_id) REFERENCES CAR_PARK (ID)
+[EL Fine]: sql: 2022-05-21 01:55:01.824--ServerSession(443942537)--Connection(632475595)--ALTER TABLE PARKING_SPOT ADD CONSTRAINT FK_PARKING_SPOT_floor_id FOREIGN KEY (floor_id) REFERENCES CAR_PARK_FLOOR (ID)
+[EL Fine]: sql: 2022-05-21 01:55:01.886--ServerSession(443942537)--Connection(632475595)--ALTER TABLE PARKING_SPOT ADD CONSTRAINT FK_PARKING_SPOT_CAR_ID FOREIGN KEY (CAR_ID) REFERENCES CAR (ID)
+[EL Fine]: sql: 2022-05-21 01:55:01.956--ServerSession(443942537)--Connection(632475595)--CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT DECIMAL(38), PRIMARY KEY (SEQ_NAME))
+[EL Fine]: sql: 2022-05-21 01:55:01.983--ServerSession(443942537)--Connection(632475595)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2022-05-21 01:55:01.986--ServerSession(443942537)--Connection(632475595)--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)
+car park class: sk.stuba.fei.uim.vsa.pr1c.CarParkService
+[EL Fine]: sql: 2022-05-21 01:55:04.006--ClientSession(2109219177)--Connection(632475595)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2022-05-21 01:55:04.008--ClientSession(2109219177)--Connection(632475595)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2022-05-21 01:55:04.035--ClientSession(2109219177)--Connection(632475595)--INSERT INTO HOLIDAYS (ID, DATE, NAME) VALUES (?, ?, ?)
+	bind => [1, 01-01, Novy rok]
+[EL Fine]: sql: 2022-05-21 01:55:04.062--ClientSession(321772459)--Connection(632475595)--INSERT INTO HOLIDAYS (ID, DATE, NAME) VALUES (?, ?, ?)
+	bind => [2, 08-05, Den matiek]
+[EL Fine]: sql: 2022-05-21 01:55:04.076--ServerSession(443942537)--Connection(632475595)--select * from HOLIDAYS
+[EL Fine]: sql: 2022-05-21 01:55:04.31--ClientSession(2064883371)--Connection(632475595)--INSERT INTO HOLIDAYS (ID, DATE, NAME) VALUES (?, ?, ?)
+	bind => [3, 01-01, Novy rok]
+[EL Fine]: sql: 2022-05-21 01:55:04.332--ServerSession(443942537)--Connection(632475595)--SELECT ID, DATE, NAME FROM HOLIDAYS WHERE (DATE = ?)
+	bind => [01-01]
+[ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.065 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest
+[ERROR] HOL_02_getAllHolidaysTest  Time elapsed: 0.422 s  <<< ERROR!
+java.lang.RuntimeException: Field not found!
+	at sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest.HOL_02_getAllHolidaysTest(HolidayTest.java:114)
+
+[ERROR] HOL_01_createAndGetHoliday  Time elapsed: 0.215 s  <<< ERROR!
+java.lang.RuntimeException: Field not found!
+	at sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest.HOL_01_createAndGetHoliday(HolidayTest.java:75)
+
+[INFO] Running sk.stuba.fei.uim.vsa.pr1c.tests.CarParkFloorTest
+car park class: sk.stuba.fei.uim.vsa.pr1c.CarParkService
+[EL Fine]: sql: 2022-05-21 01:55:04.664--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [TestCarPark]
+[EL Fine]: sql: 2022-05-21 01:55:04.671--ClientSession(727250772)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [4, Ulica 123, TestCarPark, 12]
+[EL Fine]: sql: 2022-05-21 01:55:04.683--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 4 and FLOORIDENTIFIER = 'Floor 1-1'
+[EL Fine]: sql: 2022-05-21 01:55:04.688--ClientSession(1373949107)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [5, Floor 1-1]
+[EL Fine]: sql: 2022-05-21 01:55:04.7--ClientSession(1373949107)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [4, 5]
+[EL Fine]: sql: 2022-05-21 01:55:04.884--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [TestCarPark]
+[EL Fine]: sql: 2022-05-21 01:55:04.886--ClientSession(1495161082)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [6, Ulica 123, TestCarPark, 12]
+[EL Fine]: sql: 2022-05-21 01:55:04.892--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 6 and FLOORIDENTIFIER = 'Floor 1-1'
+[EL Fine]: sql: 2022-05-21 01:55:04.895--ClientSession(1837601499)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [7, Floor 1-1]
+[EL Fine]: sql: 2022-05-21 01:55:04.902--ClientSession(1837601499)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [6, 7]
+[EL Fine]: sql: 2022-05-21 01:55:04.91--ClientSession(1627883152)--Connection(632475595)--DELETE FROM CAR_PARK_FLOOR WHERE (ID = ?)
+	bind => [7]
+[EL Fine]: sql: 2022-05-21 01:55:04.915--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (ID = ?)
+	bind => [7]
+[EL Fine]: sql: 2022-05-21 01:55:05.087--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [TestCarPark]
+[EL Fine]: sql: 2022-05-21 01:55:05.092--ClientSession(1419125235)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [8, Ulica 123, TestCarPark, 12]
+[EL Fine]: sql: 2022-05-21 01:55:05.099--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 8 and FLOORIDENTIFIER = 'Floor 1-1'
+[EL Fine]: sql: 2022-05-21 01:55:05.102--ClientSession(37841489)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [9, Floor 1-1]
+[EL Fine]: sql: 2022-05-21 01:55:05.108--ClientSession(37841489)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [8, 9]
+[EL Fine]: sql: 2022-05-21 01:55:05.114--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 8 and FLOORIDENTIFIER = 'Floor 1.2'
+[EL Fine]: sql: 2022-05-21 01:55:05.116--ClientSession(739737502)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [10, Floor 1.2]
+[EL Fine]: sql: 2022-05-21 01:55:05.125--ClientSession(739737502)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [8, 10]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.708 s - in sk.stuba.fei.uim.vsa.pr1c.tests.CarParkFloorTest
+[INFO] Running sk.stuba.fei.uim.vsa.pr1c.tests.CarParkTest
+car park class: sk.stuba.fei.uim.vsa.pr1c.CarParkService
+[EL Fine]: sql: 2022-05-21 01:55:05.367--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [DELETE-CAR-PARK-1]
+[EL Fine]: sql: 2022-05-21 01:55:05.37--ClientSession(2013768748)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [11, test11, DELETE-CAR-PARK-1, 10]
+[EL Fine]: sql: 2022-05-21 01:55:05.378--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [DELETE-CAR-PARK-1]
+[EL Fine]: sql: 2022-05-21 01:55:05.379--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [DELETE-CAR-PARK-1]
+[EL Fine]: sql: 2022-05-21 01:55:05.381--ClientSession(732597634)--Connection(632475595)--DELETE FROM CAR_PARK WHERE (ID = ?)
+	bind => [11]
+[EL Fine]: sql: 2022-05-21 01:55:05.385--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (ID = ?)
+	bind => [11]
+[EL Fine]: sql: 2022-05-21 01:55:05.542--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test2]
+[EL Fine]: sql: 2022-05-21 01:55:05.544--ClientSession(1006624255)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [12, testtest, test2, 12]
+[EL Fine]: sql: 2022-05-21 01:55:05.55--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test2]
+[EL Fine]: sql: 2022-05-21 01:55:05.551--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test2]
+[EL Fine]: sql: 2022-05-21 01:55:05.707--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [CAR-PARK-1-1]
+[EL Fine]: sql: 2022-05-21 01:55:05.709--ClientSession(1000171161)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [13, test11, CAR-PARK-1-1, 10]
+[EL Fine]: sql: 2022-05-21 01:55:05.715--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [CAR-PARK-1-2]
+[EL Fine]: sql: 2022-05-21 01:55:05.718--ClientSession(1648458262)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [14, test12, CAR-PARK-1-2, 20]
+[EL Fine]: sql: 2022-05-21 01:55:05.725--ServerSession(443942537)--Connection(632475595)--select * from CAR_PARK
+[EL Fine]: sql: 2022-05-21 01:55:05.89--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [CAR-PARK-NAME]
+[EL Fine]: sql: 2022-05-21 01:55:05.892--ClientSession(1410367298)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [15, testtest, CAR-PARK-NAME, 12]
+[EL Fine]: sql: 2022-05-21 01:55:05.897--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [CAR-PARK-NAME]
+[EL Fine]: sql: 2022-05-21 01:55:05.899--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [CAR-PARK-NAME]
+[EL Fine]: sql: 2022-05-21 01:55:06.057--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test1]
+[EL Fine]: sql: 2022-05-21 01:55:06.059--ClientSession(2048102341)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [16, testtest, test1, 12]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.925 s - in sk.stuba.fei.uim.vsa.pr1c.tests.CarParkTest
+[INFO] Running sk.stuba.fei.uim.vsa.pr1c.tests.CarTest
+car park class: sk.stuba.fei.uim.vsa.pr1c.CarParkService
+[EL Fine]: sql: 2022-05-21 01:55:06.286--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:06.29--ClientSession(288919635)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [17, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:06.295--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:06.298--ClientSession(2114537280)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [18, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:06.306--ClientSession(2114537280)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [17, 18]
+[EL Fine]: sql: 2022-05-21 01:55:06.465--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:06.467--ClientSession(1037475674)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [19, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:06.473--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:06.477--ClientSession(598325842)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [20, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:06.483--ClientSession(598325842)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [19, 20]
+[EL Fine]: sql: 2022-05-21 01:55:06.489--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:06.649--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:06.651--ClientSession(1298380324)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [21, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:06.656--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:06.658--ClientSession(1611221523)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [22, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:06.666--ClientSession(1611221523)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [21, 22]
+[EL Fine]: sql: 2022-05-21 01:55:06.671--ServerSession(443942537)--Connection(632475595)--select * from USER
+[EL Fine]: sql: 2022-05-21 01:55:06.822--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:06.824--ClientSession(667890001)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [23, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:06.829--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:06.831--ClientSession(537536188)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [24, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:06.836--ClientSession(537536188)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [23, 24]
+[EL Fine]: sql: 2022-05-21 01:55:07.009--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:07.012--ClientSession(1454870101)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [25, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:07.017--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:07.02--ClientSession(1409342262)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [26, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.026--ClientSession(1409342262)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [25, 26]
+[ERROR] Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.96 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.CarTest
+[ERROR] CAR06_shouldDeleteCar  Time elapsed: 0.191 s  <<< ERROR!
+java.lang.NullPointerException
+	at sk.stuba.fei.uim.vsa.pr1c.tests.CarTest.CAR06_shouldDeleteCar(CarTest.java:89)
+
+[INFO] Running sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotAndReservationWithoutTypeTest
+car park class: sk.stuba.fei.uim.vsa.pr1c.CarParkService
+[EL Fine]: sql: 2022-05-21 01:55:07.273--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.275--ClientSession(1420810053)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [27, testtest, test7, 12]
+[EL Fine]: sql: 2022-05-21 01:55:07.28--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 27 and FLOORIDENTIFIER = 'Floor1'
+[EL Fine]: sql: 2022-05-21 01:55:07.282--ClientSession(748975217)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [28, Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:07.29--ClientSession(748975217)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [27, 28]
+[EL Fine]: sql: 2022-05-21 01:55:07.295--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 27 and FLOORIDENTIFIER = 'Floor2'
+[EL Fine]: sql: 2022-05-21 01:55:07.297--ClientSession(1094272405)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [29, Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:07.303--ClientSession(1094272405)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [27, 29]
+[EL Fine]: sql: 2022-05-21 01:55:07.309--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 27 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.1'
+[EL Fine]: sql: 2022-05-21 01:55:07.311--ClientSession(1381857776)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [30, 1.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.316--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:07.32--ClientSession(1381857776)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [28, 30]
+[EL Fine]: sql: 2022-05-21 01:55:07.326--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 27 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.2'
+[EL Fine]: sql: 2022-05-21 01:55:07.328--ClientSession(1092619788)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [31, 1.2, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.333--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:07.335--ClientSession(1092619788)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [28, 31]
+[EL Fine]: sql: 2022-05-21 01:55:07.34--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 27 and FLOORIDENTIFIER = 'Floor2' and PARKINGSPOTIDENTIFIER = '2.1'
+[EL Fine]: sql: 2022-05-21 01:55:07.342--ClientSession(2047744862)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [32, 2.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.347--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:07.35--ClientSession(2047744862)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [29, 32]
+[EL Fine]: sql: 2022-05-21 01:55:07.358--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 27 and FLOORIDENTIFIER = 'Floor2' and PARKINGSPOTIDENTIFIER = '2.2'
+[EL Fine]: sql: 2022-05-21 01:55:07.36--ClientSession(1658487789)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [33, 2.2, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.365--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:07.367--ClientSession(1658487789)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [29, 33]
+[EL Fine]: sql: 2022-05-21 01:55:07.373--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.374--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.377--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:07.38--ClientSession(203409950)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [34, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:07.391--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:07.394--ClientSession(827328832)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [35, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.4--ClientSession(827328832)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [34, 35]
+[EL Fine]: sql: 2022-05-21 01:55:07.41--ClientSession(1967432164)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 30
+[EL Fine]: sql: 2022-05-21 01:55:07.412--ClientSession(1967432164)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [36, 2022-05-21T01:55:07.409, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:07.417--ClientSession(1967432164)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [36, 35]
+[EL Fine]: sql: 2022-05-21 01:55:07.418--ClientSession(1967432164)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [35, 30]
+[EL Fine]: sql: 2022-05-21 01:55:07.424--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.425--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.428--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka2@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:07.429--ClientSession(553821397)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [37, jozko.mrkvicka2@example.com, Jožko2, Mrkvièka2]
+[EL Fine]: sql: 2022-05-21 01:55:07.435--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL799XX]
+[EL Fine]: sql: 2022-05-21 01:55:07.437--ClientSession(226586078)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [38, Audi, black, BL799XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.444--ClientSession(226586078)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [37, 38]
+[EL Fine]: sql: 2022-05-21 01:55:07.45--ClientSession(540092563)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 33
+[EL Fine]: sql: 2022-05-21 01:55:07.452--ClientSession(540092563)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [39, 2022-05-21T01:55:07.450, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:07.453--ClientSession(540092563)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [39, 38]
+[EL Fine]: sql: 2022-05-21 01:55:07.459--ClientSession(540092563)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [38, 33]
+[EL Fine]: sql: 2022-05-21 01:55:07.467--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.469--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.472--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka3@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:07.474--ClientSession(1388849499)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [40, jozko.mrkvicka3@example.com, Jožko3, Mrkvièka3]
+[EL Fine]: sql: 2022-05-21 01:55:07.48--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL700XX]
+[EL Fine]: sql: 2022-05-21 01:55:07.482--ClientSession(1624788833)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [41, Audi, black, BL700XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.488--ClientSession(1624788833)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [40, 41]
+[EL Fine]: sql: 2022-05-21 01:55:07.494--ClientSession(758465579)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 31
+[EL Fine]: sql: 2022-05-21 01:55:07.495--ClientSession(758465579)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [42, 2022-05-21T01:55:07.493, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:07.496--ClientSession(758465579)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [42, 41]
+[EL Fine]: sql: 2022-05-21 01:55:07.497--ClientSession(758465579)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [41, 31]
+[EL Fine]: sql: 2022-05-21 01:55:07.503--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.504--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.666--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.668--ClientSession(683718244)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [43, testtest, test7, 12]
+[EL Fine]: sql: 2022-05-21 01:55:07.673--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 43 and FLOORIDENTIFIER = 'Floor1'
+[EL Fine]: sql: 2022-05-21 01:55:07.675--ClientSession(1293252487)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [44, Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:07.681--ClientSession(1293252487)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [43, 44]
+[EL Fine]: sql: 2022-05-21 01:55:07.687--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 43 and FLOORIDENTIFIER = 'Floor2'
+[EL Fine]: sql: 2022-05-21 01:55:07.689--ClientSession(1088744071)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [45, Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:07.695--ClientSession(1088744071)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [43, 45]
+[EL Fine]: sql: 2022-05-21 01:55:07.7--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 43 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.1'
+[EL Fine]: sql: 2022-05-21 01:55:07.702--ClientSession(405488475)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [46, 1.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.707--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:07.709--ClientSession(405488475)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [44, 46]
+[EL Fine]: sql: 2022-05-21 01:55:07.713--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 43 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.2'
+[EL Fine]: sql: 2022-05-21 01:55:07.715--ClientSession(245530164)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [47, 1.2, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.72--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:07.721--ClientSession(245530164)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [44, 47]
+[EL Fine]: sql: 2022-05-21 01:55:07.727--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 43 and FLOORIDENTIFIER = 'Floor2' and PARKINGSPOTIDENTIFIER = '2.1'
+[EL Fine]: sql: 2022-05-21 01:55:07.729--ClientSession(317960117)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [48, 2.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.735--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:07.737--ClientSession(317960117)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [45, 48]
+[EL Fine]: sql: 2022-05-21 01:55:07.742--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 43 and FLOORIDENTIFIER = 'Floor2' and PARKINGSPOTIDENTIFIER = '2.2'
+[EL Fine]: sql: 2022-05-21 01:55:07.743--ClientSession(1556061855)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [49, 2.2, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.748--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:07.75--ClientSession(1556061855)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [45, 49]
+[EL Fine]: sql: 2022-05-21 01:55:07.756--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.757--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.762--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:07.764--ClientSession(615853374)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [50, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:07.769--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:07.771--ClientSession(920446957)--Connection(632475595)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2022-05-21 01:55:07.772--ClientSession(920446957)--Connection(632475595)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2022-05-21 01:55:07.777--ClientSession(920446957)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [51, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.783--ClientSession(920446957)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [50, 51]
+[EL Fine]: sql: 2022-05-21 01:55:07.79--ClientSession(1048128739)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 46
+[EL Fine]: sql: 2022-05-21 01:55:07.793--ClientSession(1048128739)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [52, 2022-05-21T01:55:07.789, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:07.794--ClientSession(1048128739)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [52, 51]
+[EL Fine]: sql: 2022-05-21 01:55:07.795--ClientSession(1048128739)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [51, 46]
+[EL Fine]: sql: 2022-05-21 01:55:07.801--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.802--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.804--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka2@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:07.806--ClientSession(295055909)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [53, jozko.mrkvicka2@example.com, Jožko2, Mrkvièka2]
+[EL Fine]: sql: 2022-05-21 01:55:07.811--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL799XX]
+[EL Fine]: sql: 2022-05-21 01:55:07.812--ClientSession(1132369181)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [54, Audi, black, BL799XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.818--ClientSession(1132369181)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [53, 54]
+[EL Fine]: sql: 2022-05-21 01:55:07.824--ClientSession(1296910502)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 47
+[EL Fine]: sql: 2022-05-21 01:55:07.826--ClientSession(1296910502)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [55, 2022-05-21T01:55:07.824, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:07.826--ClientSession(1296910502)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [55, 54]
+[EL Fine]: sql: 2022-05-21 01:55:07.828--ClientSession(1296910502)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [54, 47]
+[EL Fine]: sql: 2022-05-21 01:55:07.834--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.835--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.837--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka3@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:07.839--ClientSession(1710191146)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [56, jozko.mrkvicka3@example.com, Jožko3, Mrkvièka3]
+[EL Fine]: sql: 2022-05-21 01:55:07.843--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL700XX]
+[EL Fine]: sql: 2022-05-21 01:55:07.845--ClientSession(1699265405)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [57, Audi, black, BL700XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:07.85--ClientSession(1699265405)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [56, 57]
+[EL Fine]: sql: 2022-05-21 01:55:07.857--ClientSession(2041264753)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 48
+[EL Fine]: sql: 2022-05-21 01:55:07.858--ClientSession(2041264753)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [58, 2022-05-21T01:55:07.856, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:07.859--ClientSession(2041264753)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [58, 57]
+[EL Fine]: sql: 2022-05-21 01:55:07.86--ClientSession(2041264753)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [57, 48]
+[EL Fine]: sql: 2022-05-21 01:55:07.865--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:07.866--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.827 s - in sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotAndReservationWithoutTypeTest
+[INFO] Running sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest
+car park class: sk.stuba.fei.uim.vsa.pr1c.CarParkService
+[EL Fine]: sql: 2022-05-21 01:55:08.086--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:08.089--ClientSession(1965036946)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [59, testtest, test7, 12]
+[EL Fine]: sql: 2022-05-21 01:55:08.094--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 59 and FLOORIDENTIFIER = 'Floor1'
+[EL Fine]: sql: 2022-05-21 01:55:08.096--ClientSession(498134055)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [60, Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:08.102--ClientSession(498134055)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [59, 60]
+[EL Fine]: sql: 2022-05-21 01:55:08.109--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 59 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.1'
+[EL Fine]: sql: 2022-05-21 01:55:08.112--ClientSession(1340051218)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [61, 1.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.117--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:08.119--ClientSession(1340051218)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [60, 61]
+[EL Fine]: sql: 2022-05-21 01:55:08.124--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test8]
+[EL Fine]: sql: 2022-05-21 01:55:08.126--ClientSession(1156210828)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [62, testtest, test8, 12]
+[EL Fine]: sql: 2022-05-21 01:55:08.132--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 62 and FLOORIDENTIFIER = 'Floor2'
+[EL Fine]: sql: 2022-05-21 01:55:08.135--ClientSession(452015229)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [63, Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:08.144--ClientSession(452015229)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [62, 63]
+[EL Fine]: sql: 2022-05-21 01:55:08.148--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 62 and FLOORIDENTIFIER = 'Floor2' and PARKINGSPOTIDENTIFIER = '1.1'
+[EL Fine]: sql: 2022-05-21 01:55:08.15--ClientSession(305552520)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [64, 1.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.155--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:08.157--ClientSession(305552520)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [63, 64]
+[EL Fine]: sql: 2022-05-21 01:55:08.162--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 59 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.1'
+[EL Fine]: sql: 2022-05-21 01:55:08.319--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test8]
+[EL Fine]: sql: 2022-05-21 01:55:08.322--ClientSession(1061018585)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [65, testtest, test8, 12]
+[EL Fine]: sql: 2022-05-21 01:55:08.327--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 65 and FLOORIDENTIFIER = 'Floor3-1'
+[EL Fine]: sql: 2022-05-21 01:55:08.329--ClientSession(2004655561)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [66, Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:08.334--ClientSession(2004655561)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [65, 66]
+[EL Fine]: sql: 2022-05-21 01:55:08.339--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 65 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.01'
+[EL Fine]: sql: 2022-05-21 01:55:08.341--ClientSession(594195094)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [67, 1.01, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.346--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:08.346--ClientSession(594195094)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [66, 67]
+[EL Fine]: sql: 2022-05-21 01:55:08.352--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 65 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.02'
+[EL Fine]: sql: 2022-05-21 01:55:08.356--ClientSession(2115087165)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [68, 1.02, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.36--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:08.362--ClientSession(2115087165)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [66, 68]
+[EL Fine]: sql: 2022-05-21 01:55:08.367--ServerSession(443942537)--Connection(632475595)--SELECT * FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on PARKING_SPOT.floor_id = CPF.ID  WHERE CPF.FLOORIDENTIFIER = 'Floor3-1' and car_park_id = 65
+[EL Fine]: sql: 2022-05-21 01:55:08.526--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:08.528--ClientSession(1103505488)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [69, testtest, test7, 12]
+[EL Fine]: sql: 2022-05-21 01:55:08.533--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 69 and FLOORIDENTIFIER = 'Floor1'
+[EL Fine]: sql: 2022-05-21 01:55:08.535--ClientSession(1688310330)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [70, Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:08.541--ClientSession(1688310330)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [69, 70]
+[EL Fine]: sql: 2022-05-21 01:55:08.547--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 69 and FLOORIDENTIFIER = 'Floor2'
+[EL Fine]: sql: 2022-05-21 01:55:08.549--ClientSession(1097069005)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [71, Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:08.554--ClientSession(1097069005)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [69, 71]
+[EL Fine]: sql: 2022-05-21 01:55:08.559--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 69 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.1'
+[EL Fine]: sql: 2022-05-21 01:55:08.561--ClientSession(1405055124)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [72, 1.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.566--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:08.569--ClientSession(1405055124)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [70, 72]
+[EL Fine]: sql: 2022-05-21 01:55:08.575--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 69 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.2'
+[EL Fine]: sql: 2022-05-21 01:55:08.577--ClientSession(379430898)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [73, 1.2, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.582--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:08.584--ClientSession(379430898)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [70, 73]
+[EL Fine]: sql: 2022-05-21 01:55:08.588--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 69 and FLOORIDENTIFIER = 'Floor2' and PARKINGSPOTIDENTIFIER = '2.1'
+[EL Fine]: sql: 2022-05-21 01:55:08.59--ClientSession(1959758632)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [74, 2.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.594--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:08.596--ClientSession(1959758632)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [71, 74]
+[EL Fine]: sql: 2022-05-21 01:55:08.601--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 69 and FLOORIDENTIFIER = 'Floor2' and PARKINGSPOTIDENTIFIER = '2.2'
+[EL Fine]: sql: 2022-05-21 01:55:08.602--ClientSession(1844579038)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [75, 2.2, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.606--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor2]
+[EL Fine]: sql: 2022-05-21 01:55:08.608--ClientSession(1844579038)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [71, 75]
+[EL Fine]: sql: 2022-05-21 01:55:08.772--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:08.774--ClientSession(2107706203)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [76, testtest, test7, 12]
+[EL Fine]: sql: 2022-05-21 01:55:08.779--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 76 and FLOORIDENTIFIER = 'Floor1'
+[EL Fine]: sql: 2022-05-21 01:55:08.781--ClientSession(7395550)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [77, Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:08.788--ClientSession(7395550)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [76, 77]
+[EL Fine]: sql: 2022-05-21 01:55:08.795--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 76 and FLOORIDENTIFIER = 'Floor1' and PARKINGSPOTIDENTIFIER = '1.1'
+[EL Fine]: sql: 2022-05-21 01:55:08.797--ClientSession(989440614)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [78, 1.1, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.802--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor1]
+[EL Fine]: sql: 2022-05-21 01:55:08.803--ClientSession(989440614)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [77, 78]
+[EL Fine]: sql: 2022-05-21 01:55:08.969--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test7]
+[EL Fine]: sql: 2022-05-21 01:55:08.97--ClientSession(715289224)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [79, testtest, test7, 12]
+[EL Fine]: sql: 2022-05-21 01:55:08.975--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 79 and FLOORIDENTIFIER = 'Floor3-1'
+[EL Fine]: sql: 2022-05-21 01:55:08.978--ClientSession(2124731287)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [80, Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:08.985--ClientSession(2124731287)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [79, 80]
+[EL Fine]: sql: 2022-05-21 01:55:08.99--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 79 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.01'
+[EL Fine]: sql: 2022-05-21 01:55:08.992--ClientSession(1475759966)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [81, 1.01, null]
+[EL Fine]: sql: 2022-05-21 01:55:08.997--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:08.998--ClientSession(1475759966)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [80, 81]
+[EL Fine]: sql: 2022-05-21 01:55:09.167--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test8]
+[EL Fine]: sql: 2022-05-21 01:55:09.169--ClientSession(741883443)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [82, testtest, test8, 12]
+[EL Fine]: sql: 2022-05-21 01:55:09.173--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 82 and FLOORIDENTIFIER = 'Floor3-1'
+[EL Fine]: sql: 2022-05-21 01:55:09.175--ClientSession(989033734)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [83, Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.18--ClientSession(989033734)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [82, 83]
+[EL Fine]: sql: 2022-05-21 01:55:09.185--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 82 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.01'
+[EL Fine]: sql: 2022-05-21 01:55:09.186--ClientSession(296234255)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [84, 1.01, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.191--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.194--ClientSession(296234255)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [83, 84]
+[EL Fine]: sql: 2022-05-21 01:55:09.2--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 82 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.02'
+[EL Fine]: sql: 2022-05-21 01:55:09.202--ClientSession(352378889)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [85, 1.02, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.206--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.208--ClientSession(352378889)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [83, 85]
+[EL Fine]: sql: 2022-05-21 01:55:09.213--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 82 and FLOORIDENTIFIER = 'Floor3-2'
+[EL Fine]: sql: 2022-05-21 01:55:09.215--ClientSession(2050320909)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [86, Floor3-2]
+[EL Fine]: sql: 2022-05-21 01:55:09.221--ClientSession(2050320909)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [82, 86]
+[EL Fine]: sql: 2022-05-21 01:55:09.227--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 82 and FLOORIDENTIFIER = 'Floor3-2' and PARKINGSPOTIDENTIFIER = '2.01'
+[EL Fine]: sql: 2022-05-21 01:55:09.23--ClientSession(435297131)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [87, 2.01, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.234--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-2]
+[EL Fine]: sql: 2022-05-21 01:55:09.236--ClientSession(435297131)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [86, 87]
+[ERROR] Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.37 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest
+[ERROR] SPOT07_getAllParkingSpotForFloorWithoutType  Time elapsed: 0.205 s  <<< ERROR!
+java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to sk.stuba.fei.uim.vsa.pr1c.Entities.ParkingSpot
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest.SPOT07_getAllParkingSpotForFloorWithoutType(ParkingSpotTest.java:386)
+
+[ERROR] SPOT05_deleteParkingSpotWithoutType  Time elapsed: 0.195 s  <<< ERROR!
+java.lang.NullPointerException
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest.SPOT05_deleteParkingSpotWithoutType(ParkingSpotTest.java:307)
+
+[INFO] Running sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest
+car park class: sk.stuba.fei.uim.vsa.pr1c.CarParkService
+[EL Fine]: sql: 2022-05-21 01:55:09.466--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test8]
+[EL Fine]: sql: 2022-05-21 01:55:09.468--ClientSession(977522995)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [88, testtest, test8, 12]
+[EL Fine]: sql: 2022-05-21 01:55:09.473--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 88 and FLOORIDENTIFIER = 'Floor3-1'
+[EL Fine]: sql: 2022-05-21 01:55:09.477--ClientSession(1623287112)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [89, Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.483--ClientSession(1623287112)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [88, 89]
+[EL Fine]: sql: 2022-05-21 01:55:09.488--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 88 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.01'
+[EL Fine]: sql: 2022-05-21 01:55:09.49--ClientSession(687892306)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [90, 1.01, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.495--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.497--ClientSession(687892306)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [89, 90]
+[EL Fine]: sql: 2022-05-21 01:55:09.502--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:09.504--ClientSession(1991094835)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [91, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:09.51--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:09.512--ClientSession(1444494461)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [92, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.518--ClientSession(1444494461)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [91, 92]
+[EL Fine]: sql: 2022-05-21 01:55:09.524--ClientSession(1120670624)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 90
+[EL Fine]: sql: 2022-05-21 01:55:09.526--ClientSession(1120670624)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [93, 2022-05-21T01:55:09.524, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:09.527--ClientSession(1120670624)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [93, 92]
+[EL Fine]: sql: 2022-05-21 01:55:09.528--ClientSession(1120670624)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [92, 90]
+[EL Fine]: sql: 2022-05-21 01:55:09.533--ServerSession(443942537)--Connection(632475595)--SELECT * FROM RESERVATION JOIN CAR C on RESERVATION.ID = C.RESERVATION_ID JOIN PARKING_SPOT PS on C.ID = PS.CAR_ID WHERE PS.ID  = 90 and RESERVATION.BEGINTIME LIKE '2022-05-21%'
+[EL Fine]: sql: 2022-05-21 01:55:09.694--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test8]
+[EL Fine]: sql: 2022-05-21 01:55:09.697--ClientSession(648358364)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [94, testtest, test8, 12]
+[EL Fine]: sql: 2022-05-21 01:55:09.704--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 94 and FLOORIDENTIFIER = 'Floor3-1'
+[EL Fine]: sql: 2022-05-21 01:55:09.705--ClientSession(2002097394)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [95, Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.711--ClientSession(2002097394)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [94, 95]
+[EL Fine]: sql: 2022-05-21 01:55:09.716--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 94 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.01'
+[EL Fine]: sql: 2022-05-21 01:55:09.718--ClientSession(195163481)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [96, 1.01, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.723--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.725--ClientSession(195163481)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [95, 96]
+[EL Fine]: sql: 2022-05-21 01:55:09.732--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:09.734--ClientSession(1884422865)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [97, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:09.738--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:09.74--ClientSession(1082795132)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [98, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.747--ClientSession(1082795132)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [97, 98]
+[EL Fine]: sql: 2022-05-21 01:55:09.753--ClientSession(1596009860)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 96
+[EL Fine]: sql: 2022-05-21 01:55:09.755--ClientSession(1596009860)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [99, 2022-05-21T01:55:09.752, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:09.757--ClientSession(1596009860)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [99, 98]
+[EL Fine]: sql: 2022-05-21 01:55:09.758--ClientSession(1596009860)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [98, 96]
+[EL Fine]: sql: 2022-05-21 01:55:09.929--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test8]
+[EL Fine]: sql: 2022-05-21 01:55:09.931--ClientSession(943666520)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [100, testtest, test8, 12]
+[EL Fine]: sql: 2022-05-21 01:55:09.936--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 100 and FLOORIDENTIFIER = 'Floor3-1'
+[EL Fine]: sql: 2022-05-21 01:55:09.938--ClientSession(606365803)--Connection(632475595)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2022-05-21 01:55:09.938--ClientSession(606365803)--Connection(632475595)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2022-05-21 01:55:09.944--ClientSession(606365803)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [101, Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.951--ClientSession(606365803)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [100, 101]
+[EL Fine]: sql: 2022-05-21 01:55:09.956--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 100 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.01'
+[EL Fine]: sql: 2022-05-21 01:55:09.958--ClientSession(15910024)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [102, 1.01, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.963--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:09.965--ClientSession(15910024)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [101, 102]
+[EL Fine]: sql: 2022-05-21 01:55:09.969--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:09.971--ClientSession(665565246)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [103, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:09.977--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:09.981--ClientSession(1129387802)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [104, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:09.986--ClientSession(1129387802)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [103, 104]
+[EL Fine]: sql: 2022-05-21 01:55:09.992--ClientSession(688988404)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 102
+[EL Fine]: sql: 2022-05-21 01:55:09.993--ClientSession(688988404)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [105, 2022-05-21T01:55:09.991, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:09.994--ClientSession(688988404)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [105, 104]
+[EL Fine]: sql: 2022-05-21 01:55:09.995--ClientSession(688988404)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [104, 102]
+[TEST LOG] 2022-05-21 : Waiting for simulating parking clock
+[EL Fine]: sql: 2022-05-21 01:55:13.017--ClientSession(435175610)--Connection(632475595)--UPDATE RESERVATION SET ENDTIME = ? WHERE (ID = ?)
+	bind => [2022-05-21T01:55:13.015, 105]
+[EL Fine]: sql: 2022-05-21 01:55:13.018--ClientSession(435175610)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (RESERVATION_ID = ?)
+	bind => [105]
+[EL Fine]: sql: 2022-05-21 01:55:13.019--ClientSession(435175610)--Connection(632475595)--SELECT ID, PARKINGSPOTIDENTIFIER, CAR_ID FROM PARKING_SPOT WHERE (CAR_ID = ?)
+	bind => [104]
+[EL Fine]: sql: 2022-05-21 01:55:13.021--ClientSession(435175610)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [null, 104]
+[EL Fine]: sql: 2022-05-21 01:55:13.022--ClientSession(435175610)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [null, 102]
+[EL Fine]: sql: 2022-05-21 01:55:13.023--ClientSession(435175610)--Connection(632475595)--DELETE FROM CAR WHERE (ID = ?)
+	bind => [104]
+[EL Fine]: sql: 2022-05-21 01:55:13.172--ServerSession(443942537)--Connection(632475595)--SELECT ID, ADDRESS, NAME, PRICEPERHOUR FROM CAR_PARK WHERE (NAME = ?)
+	bind => [test8]
+[EL Fine]: sql: 2022-05-21 01:55:13.174--ClientSession(333879495)--Connection(632475595)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [106, testtest, test8, 12]
+[EL Fine]: sql: 2022-05-21 01:55:13.181--ServerSession(443942537)--Connection(632475595)--SELECT FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE car_park_id = 106 and FLOORIDENTIFIER = 'Floor3-1'
+[EL Fine]: sql: 2022-05-21 01:55:13.182--ClientSession(1511004956)--Connection(632475595)--INSERT INTO CAR_PARK_FLOOR (ID, FLOORIDENTIFIER) VALUES (?, ?)
+	bind => [107, Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:13.187--ClientSession(1511004956)--Connection(632475595)--UPDATE CAR_PARK_FLOOR SET car_park_id = ? WHERE (ID = ?)
+	bind => [106, 107]
+[EL Fine]: sql: 2022-05-21 01:55:13.192--ServerSession(443942537)--Connection(632475595)--SELECT PARKINGSPOTIDENTIFIER FROM PARKING_SPOT    JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id WHERE car_park_id = 106 and FLOORIDENTIFIER = 'Floor3-1' and PARKINGSPOTIDENTIFIER = '1.01'
+[EL Fine]: sql: 2022-05-21 01:55:13.195--ClientSession(1835316563)--Connection(632475595)--INSERT INTO PARKING_SPOT (ID, PARKINGSPOTIDENTIFIER, CAR_ID) VALUES (?, ?, ?)
+	bind => [108, 1.01, null]
+[EL Fine]: sql: 2022-05-21 01:55:13.199--ServerSession(443942537)--Connection(632475595)--SELECT ID, FLOORIDENTIFIER FROM CAR_PARK_FLOOR WHERE (FLOORIDENTIFIER = ?)
+	bind => [Floor3-1]
+[EL Fine]: sql: 2022-05-21 01:55:13.201--ClientSession(1835316563)--Connection(632475595)--UPDATE PARKING_SPOT SET floor_id = ? WHERE (ID = ?)
+	bind => [107, 108]
+[EL Fine]: sql: 2022-05-21 01:55:13.205--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:13.206--ClientSession(1970612644)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [109, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:13.21--ServerSession(443942537)--Connection(632475595)--SELECT ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID FROM CAR WHERE (LICENSEPLATE = ?)
+	bind => [BL798XX]
+[EL Fine]: sql: 2022-05-21 01:55:13.211--ClientSession(1774589469)--Connection(632475595)--INSERT INTO CAR (ID, BRAND, COLOR, LICENSEPLATE, MODEL, RESERVATION_ID) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [110, Audi, black, BL798XX, A7, null]
+[EL Fine]: sql: 2022-05-21 01:55:13.216--ClientSession(1774589469)--Connection(632475595)--UPDATE CAR SET user = ? WHERE (ID = ?)
+	bind => [109, 110]
+[EL Fine]: sql: 2022-05-21 01:55:13.222--ClientSession(116356643)--Connection(632475595)--SELECT CP.PRICEPERHOUR FROM PARKING_SPOT JOIN CAR_PARK_FLOOR CPF on CPF.ID = PARKING_SPOT.floor_id JOIN CAR_PARK CP on CP.ID = CPF.car_park_id where PARKING_SPOT.id = 108
+[EL Fine]: sql: 2022-05-21 01:55:13.223--ClientSession(116356643)--Connection(632475595)--INSERT INTO RESERVATION (ID, BEGINTIME, ENDTIME, PRICE) VALUES (?, ?, ?, ?)
+	bind => [111, 2022-05-21T01:55:13.221, null, 12]
+[EL Fine]: sql: 2022-05-21 01:55:13.226--ClientSession(116356643)--Connection(632475595)--UPDATE CAR SET RESERVATION_ID = ? WHERE (ID = ?)
+	bind => [111, 110]
+[EL Fine]: sql: 2022-05-21 01:55:13.226--ClientSession(116356643)--Connection(632475595)--UPDATE PARKING_SPOT SET CAR_ID = ? WHERE (ID = ?)
+	bind => [110, 108]
+[ERROR] Tests run: 4, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 3.983 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest
+[ERROR] RES03_shouldCreateAndGetReservations  Time elapsed: 0.23 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <93> but was: <null>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest.RES03_shouldCreateAndGetReservations(ReservationTest.java:197)
+
+[ERROR] RES04_shouldCreateAndGetReservationByUser  Time elapsed: 0.227 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest.RES04_shouldCreateAndGetReservationByUser(ReservationTest.java:223)
+
+[ERROR] RES02_shouldCreateAndEndReservation  Time elapsed: 3.261 s  <<< ERROR!
+java.lang.RuntimeException: Cannot test reservation for price. Field not found!
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest.RES02_shouldCreateAndEndReservation(ReservationTest.java:167)
+
+[INFO] Running sk.stuba.fei.uim.vsa.pr1c.tests.UserTest
+car park class: sk.stuba.fei.uim.vsa.pr1c.CarParkService
+[EL Fine]: sql: 2022-05-21 01:55:13.408--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:13.411--ClientSession(1300576734)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [112, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:13.416--ServerSession(443942537)--Connection(632475595)--SELECT ID, EMAIL, FIRSTNAME, LASTNAME FROM USER WHERE (EMAIL = ?)
+	bind => [jozko.mrkvicka@example.com]
+[EL Fine]: sql: 2022-05-21 01:55:13.56--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:13.562--ClientSession(906347731)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [113, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:13.712--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:13.714--ClientSession(70978270)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [114, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:13.867--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:13.869--ClientSession(1917161212)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [115, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:13.875--ClientSession(1041451158)--Connection(632475595)--DELETE FROM USER WHERE (ID = ?)
+	bind => [115]
+[EL Fine]: sql: 2022-05-21 01:55:13.88--ServerSession(443942537)--Connection(632475595)--SELECT ID, EMAIL, FIRSTNAME, LASTNAME FROM USER WHERE (EMAIL = ?)
+	bind => [jozko.mrkvicka@example.com]
+[EL Fine]: sql: 2022-05-21 01:55:14.025--ServerSession(443942537)--Connection(632475595)--SELECT EMAIL FROM USER WHERE EMAIL = 'jozko.mrkvicka@example.com'
+[EL Fine]: sql: 2022-05-21 01:55:14.026--ClientSession(123674777)--Connection(632475595)--INSERT INTO USER (ID, EMAIL, FIRSTNAME, LASTNAME) VALUES (?, ?, ?, ?)
+	bind => [116, jozko.mrkvicka@example.com, Jožko, Mrkvièka]
+[EL Fine]: sql: 2022-05-21 01:55:14.03--ServerSession(443942537)--Connection(632475595)--select * from USER
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.798 s - in sk.stuba.fei.uim.vsa.pr1c.tests.UserTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ReservationTest.RES03_shouldCreateAndGetReservations:197 expected: <93> but was: <null>
+[ERROR]   ReservationTest.RES04_shouldCreateAndGetReservationByUser:223 expected: not <null>
+[ERROR] Errors: 
+[ERROR]   HolidayTest.HOL_01_createAndGetHoliday:75 Runtime Field not found!
+[ERROR]   HolidayTest.HOL_02_getAllHolidaysTest:114 Runtime Field not found!
+[ERROR]   CarTest.CAR06_shouldDeleteCar:89 » NullPointer
+[ERROR]   ParkingSpotTest.SPOT05_deleteParkingSpotWithoutType:307 » NullPointer
+[ERROR]   ParkingSpotTest.SPOT07_getAllParkingSpotForFloorWithoutType:386 » ClassCast [L...
+[ERROR]   ReservationTest.RES02_shouldCreateAndEndReservation:167 Runtime Cannot test re...
+[INFO] 
+[ERROR] Tests run: 32, Failures: 2, Errors: 6, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.494 s
+[INFO] Finished at: 2022-05-21T01:55:14+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project b-vsa-ls22-project1-C: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaC\xsedlacek\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><evaluation>
+  <exam>B-VSA 21/22 Semestrálny projekt 1</exam>
+  <student>
+    <aisId>97037</aisId>
+    <name>Peter Sedláček</name>
+    <email/>
+  </student>
+  <github>xsedlacek</github>
+  <testsRuns>
+    <required>
+      <testsRun>
+        <totalRun>32</totalRun>
+        <success>24</success>
+        <failure>2</failure>
+        <error>6</error>
+        <skip>0</skip>
+        <points>15</points>
+      </testsRun>
+    </required>
+    <bonus>
+      <testsRun>
+        <totalRun>8</totalRun>
+        <success>1</success>
+        <failure>6</failure>
+        <error>1</error>
+        <skip>0</skip>
+        <points>1</points>
+      </testsRun>
+    </bonus>
+  </testsRuns>
+  <totalPoints>16</totalPoints>
+  <notes>Maven Tests failed</notes>
+  <testDuration>PT51.501S</testDuration>
+</evaluation>

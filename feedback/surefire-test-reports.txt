@@ -1,0 +1,80 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.065 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest
+HOL_02_getAllHolidaysTest  Time elapsed: 0.422 s  <<< ERROR!
+java.lang.RuntimeException: Field not found!
+	at sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest.HOL_02_getAllHolidaysTest(HolidayTest.java:114)
+
+HOL_01_createAndGetHoliday  Time elapsed: 0.215 s  <<< ERROR!
+java.lang.RuntimeException: Field not found!
+	at sk.stuba.fei.uim.vsa.pr1c.groupc.HolidayTest.HOL_01_createAndGetHoliday(HolidayTest.java:75)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.CarParkFloorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.708 s - in sk.stuba.fei.uim.vsa.pr1c.tests.CarParkFloorTest
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.CarParkTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.925 s - in sk.stuba.fei.uim.vsa.pr1c.tests.CarParkTest
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.CarTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.96 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.CarTest
+CAR06_shouldDeleteCar  Time elapsed: 0.191 s  <<< ERROR!
+java.lang.NullPointerException
+	at sk.stuba.fei.uim.vsa.pr1c.tests.CarTest.CAR06_shouldDeleteCar(CarTest.java:89)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotAndReservationWithoutTypeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.827 s - in sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotAndReservationWithoutTypeTest
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.37 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest
+SPOT07_getAllParkingSpotForFloorWithoutType  Time elapsed: 0.205 s  <<< ERROR!
+java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to sk.stuba.fei.uim.vsa.pr1c.Entities.ParkingSpot
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest.SPOT07_getAllParkingSpotForFloorWithoutType(ParkingSpotTest.java:386)
+
+SPOT05_deleteParkingSpotWithoutType  Time elapsed: 0.195 s  <<< ERROR!
+java.lang.NullPointerException
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ParkingSpotTest.SPOT05_deleteParkingSpotWithoutType(ParkingSpotTest.java:307)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 3.983 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest
+RES03_shouldCreateAndGetReservations  Time elapsed: 0.23 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <93> but was: <null>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest.RES03_shouldCreateAndGetReservations(ReservationTest.java:197)
+
+RES04_shouldCreateAndGetReservationByUser  Time elapsed: 0.227 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest.RES04_shouldCreateAndGetReservationByUser(ReservationTest.java:223)
+
+RES02_shouldCreateAndEndReservation  Time elapsed: 3.261 s  <<< ERROR!
+java.lang.RuntimeException: Cannot test reservation for price. Field not found!
+	at sk.stuba.fei.uim.vsa.pr1c.tests.ReservationTest.RES02_shouldCreateAndEndReservation(ReservationTest.java:167)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1c.tests.UserTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.798 s - in sk.stuba.fei.uim.vsa.pr1c.tests.UserTest
+-------------------------------------------------------------------------------
+ 
